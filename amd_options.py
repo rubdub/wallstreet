@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 #Options calculator for building option price mapping
 #Rubdub 7-6-17
 
@@ -80,7 +79,7 @@ for i in range(10, 17):
     price.append(option_price)
 
 plt.scatter(range(10, 17), price, color='red', marker='.', alpha=0.5, s=400)
- plt.show()
+plt.show()
 
 
 # S0 = 13.36
@@ -106,7 +105,7 @@ plt.scatter(range(10, 17), price, color='red', marker='.', alpha=0.5, s=400)
 
 
 
-=======
+
 #Options calculator for building option price mapping
 #Rubdub 7-6-17
 
@@ -211,7 +210,3 @@ plt.show()
 # c_BS = BlackScholes(Otype,S0, K, r, sigma, T)
 # elapsed=time.time()-t
 # print("c_BS\tBlack-Scholes price:", c_BS, elapsed)
-
-
-
->>>>>>> Stashed changes
