@@ -71,8 +71,6 @@ def future_option_price(option, tgt_days, tgt_price, tgt_iv):
 
 fut_opt13 = Call('AMD', d=4, m=8, y=2017, strike=13, source='yahoo')
 
-# print(future_option_price(fut_opt13, 30, 17, .8906))
-
 price = []
 for i in range(10, 17):
     option_price = future_option_price(fut_opt13, 1, i, .8906)
