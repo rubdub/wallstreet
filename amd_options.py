@@ -79,7 +79,7 @@ for i in range(10, 17):
     price.append(option_price)
 
 plt.scatter(range(10, 17), price, color='red', marker='.', alpha=0.5, s=400)
-# plt.show()
+ plt.show()
 
 
 # S0 = 13.36
